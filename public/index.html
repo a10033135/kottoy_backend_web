@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    Welcome to Kottoy
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>kottoy_古董美學</title>
+  <!-- <script type="module" src="./module_firebase.js"></script> -->
+  <script type="module" src="./index.js" charset="utf-8"></script>
+
+  <style media="screen">
+    h1 {
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    #input_center {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <h1> Kottoy 後台</h1>
+
+  <div style="text-align: center;">
+    <label>帳號：</label>
+    <input style="width: 5cm;" id="admin_account" class="input_center" type="text" name="admin_account" value="">  
+  </div>
+  <div style="text-align: center;">
+    <label>密碼：</label>
+    <input style="width: 5cm;" id="admin_password" type="text" name="admin_account" value="">  
+  </div>
+  <p>
+    <div style="text-align: center;">
+      <button type="button" name="button" onclick="onClick()">登入</button>
+
+    </div>
+
+</body>
+
 </html>
